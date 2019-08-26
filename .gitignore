@@ -1,0 +1,4 @@
+/vendor
+request.log
+request2.log
+src/proxy.log

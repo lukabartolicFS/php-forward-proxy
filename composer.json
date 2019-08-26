@@ -1,0 +1,12 @@
+{
+    "name": "luka/acacia_zoom_proxy",
+    "require": {
+        "athlon1600/php-proxy": "^5.1"
+    },
+    "authors": [
+        {
+            "name": "Luka Bartolic",
+            "email": "lukabartolic@farshore.com"
+        }
+    ]
+}
