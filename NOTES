@@ -1,0 +1,7 @@
+- If Authorization header is getting stripped out by a web server
+---------------------------
+Add to vhost configuration or .htaccess (or anywhere else where the web server configuration is loaded) for Apache:
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+---------------------------
